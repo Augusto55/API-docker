@@ -3,7 +3,6 @@
 
 ### Requisitos de ambiente
 - *Node LTS 16.14.2* - Site para fazer a instalação: https://nodejs.org/pt-br/
-- *NPM LTS*
 - *AdonisJS 4.1.0* - Site para fazer a instalação: https://legacy.adonisjs.com/docs/4.1/installation
 - *PostgreSQL*
 
