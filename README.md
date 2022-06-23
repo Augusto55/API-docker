@@ -35,6 +35,7 @@
         3. Salve o arquivo
 
     *3* Populando seu banco para realizar o CRUD:
+    
         1.  Na pasta api-estagio, rodar o seguinte comando:
             adonis migration:run
 
