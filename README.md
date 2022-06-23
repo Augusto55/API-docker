@@ -15,8 +15,8 @@
     
     *2* Ajustando o banco de dados:
 
-        1. Já com o projeto clonado, abra o arquivo .env, que está localizado dentro da pasta api-estagio
-        2. Aparecerá o seguinte código, configure conforme os dados do seu banco de dados:
+        1. Já com o projeto clonado, abra o arquivo .env.example, que está localizado dentro da pasta api-estagio
+        2. Aparecerá o seguinte código:
 
             HOST=127.0.0.1
             PORT=3333
@@ -32,7 +32,9 @@
             DB_DATABASE=seuDatabase
             HASH_DRIVER=bcrypt
 
-        3. Salve o arquivo
+        3. Dentro do arquivo de CTRL+A e depois CTRL+C
+        4. Crie um arquivo com o nome .env e dentro dele de CTRL+V
+        5. Configure conforme os dados do seu banco de dados e salve o arquivo
 
     *3* Populando seu banco para realizar o CRUD:
     
