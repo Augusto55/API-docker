@@ -1,5 +1,5 @@
 > Este projeto é uma API para realizar CRUD de Tarefas.
-> Projeto pessoal de estudo por isso não conterá os passos de clone e instalação
+> Projeto pessoal de estudo por isso não conterá os passos de clone, arquivo .env ou instalação
 
 ### Requisitos de ambiente
 - *Node LTS 16.14.2* - Site para fazer a instalação: https://nodejs.org/pt-br/
