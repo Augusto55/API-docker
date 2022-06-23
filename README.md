@@ -1,4 +1,5 @@
 > Este projeto é uma API para realizar CRUD de Tarefas.
+> Projeto pessoal de estudo por isso não conterá os passos de clone e instalação
 
 ### Requisitos de ambiente
 - *Node LTS 16.14.2* - Site para fazer a instalação: https://nodejs.org/pt-br/
@@ -8,38 +9,6 @@
 
 ---
 ---
-
-- ## Rodando o projeto na sua máquina:
-
-    *1* Clone o projeto em uma pasta na sua máquina
-    
-    *2* Ajustando o banco de dados:
-
-        1. Já com o projeto clonado, abra o arquivo .env.example, que está localizado dentro da pasta api-estagio
-        2. Aparecerá o seguinte código:
-
-            HOST=127.0.0.1
-            PORT=3333
-            NODE_ENV=development
-            APP_URL=http://${HOST}:${PORT}
-            CACHE_VIEWS=false
-            APP_KEY=TtiCilHlRTNdNOQfjshSpdRt1RiKCe7F
-            DB_CONNECTION=pg
-            DB_HOST=seuHost
-            DB_PORT=suaPorta
-            DB_USER=seuUser
-            DB_PASSWORD=suaSenha
-            DB_DATABASE=seuDatabase
-            HASH_DRIVER=bcrypt
-
-        3. Dentro do arquivo de CTRL+A e depois CTRL+C
-        4. Crie um arquivo com o nome .env e dentro dele de CTRL+V
-        5. Configure conforme os dados do seu banco de dados e salve o arquivo
-
-    *3* Populando seu banco para realizar o CRUD:
-    
-        1.  Na pasta api-estagio, rodar o seguinte comando:
-            adonis migration:run
 
 ## Testes
         
